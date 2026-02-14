@@ -3,7 +3,7 @@ kind: Task
 metadata:
   name: cleanup
 spec:
-  workplases:
+  workspaces:
     - name: source
   steps:
     - name: remove
@@ -38,7 +38,7 @@ kind: Task
 metadata:
   name: nose
 spec:
-  workplases:
+  workspaces:
     - name: source
   params:
     - name: args
